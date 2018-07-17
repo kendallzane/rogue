@@ -6675,7 +6675,7 @@ GameObject:
   - component: {fileID: 565915523}
   m_Layer: 0
   m_Name: Enemy (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6736,6 +6736,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68ce68aa2d29064f96437410875efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
 --- !u!61 &565915526
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6834,7 +6835,7 @@ GameObject:
   - component: {fileID: 587930087}
   m_Layer: 0
   m_Name: Enemy (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6895,6 +6896,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68ce68aa2d29064f96437410875efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
 --- !u!61 &587930090
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7597,7 +7599,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.203125
+  orthographic size: 9.890625
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8044,7 +8046,7 @@ GameObject:
   - component: {fileID: 1047794658}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8875,7 +8877,7 @@ GameObject:
   - component: {fileID: 1763362028}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8969,6 +8971,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68ce68aa2d29064f96437410875efc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health: 3
 --- !u!61 &1763362027
 BoxCollider2D:
   m_ObjectHideFlags: 0
